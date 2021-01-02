@@ -26,6 +26,7 @@ const Layout = ({children, title}) => (
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
             <Link href="/hireme"><a>Hire Me</a></Link>
+            <Link href="/blog"><a>Blog</a></Link>
         </header>
         <h1>{title}</h1>
         {children}
@@ -59,13 +60,6 @@ const Layout = ({children, title}) => (
 
           footer {
             padding: 1em;
-          }
-        `}</style>
-        <style global jsx>{`
-          body {
-            margin: 0;
-            font-size: 110%;
-            background: #f0f0f0;
           }
         `}</style>
     </div>
